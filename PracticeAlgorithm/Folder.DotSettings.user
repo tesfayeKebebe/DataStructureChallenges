@@ -1,0 +1,43 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=609989a4_002Def5f_002D4935_002Dbe04_002D964b28ebb60e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckTitleCase" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.stringChallenges.CheckTitleCase&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.stringChallenges.TestRemoveFalsyValues&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.ArrayMethods.Clear&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9a30a90c_002Dfcc1_002D4339_002Dac04_002Dc690d8e9a6be/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PrintWinner" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.MonsterHeroGame.PrintWinner&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.ProcessesContentsStringArray.PrintProcessesContentsStringArray&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.ArrayMethods.Clear&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.ArrayMethods.Resize&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.stringChallenges.CheckTitleCase&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.DelegatePractice.CheckHandleButtonClick&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.ArrayChallenges.MethodCaller&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.BinarySearchTree.CheckInsertionAndMaximumValueOfBinaryTree&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.DictionaryVsNameValueCollection.NameValueCollectionImplementation&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b30fa692_002Db736_002D4ff6_002Dbac6_002D1a9414098b1e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="DictionaryImplementation" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.DictionaryVsNameValueCollection.DictionaryImplementation&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dddf4fda_002Ddf91_002D4866_002D85c8_002D7ed16ae84f3b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CalculateFinalGPA" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.FinalGPA.CalculateFinalGPA&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.BinarySearchTree.CheckInsertionAndMaximumValueOfBinaryTree&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.ListOutput.Output&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.stringChallenges.TestRemoveFalsyValues&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.StringChallenges.Reverse_ShouldBe_ReverseGivenString&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.SumOfTwoNumbers.SumOfTwoNumbersEqualToTarget_ReturnIndices&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.PolymorphismImplementation.Evaluate_Polymorphism&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.StringChallenges.IsBalance_ShouldBe_ChartersMustBeBalanced&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.StringChallenges.CheckTitleCase&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.ArrayChallenges.Merge_ShouldBe_RemoveAndOrderData&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.ReflectionExamples.ExploreReflection&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.OutKeyWordAndRef.CheckOutValue&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::093EC8D0-63FE-F55B-4E61-1EDE6771FE68::net7.0::PracticeAlgorithm.MathematicsChallenge.CheckFactorial&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
