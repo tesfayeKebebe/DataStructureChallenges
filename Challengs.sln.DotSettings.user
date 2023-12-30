@@ -3,5 +3,7 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.ArrayChallenges.Merge_ShouldBe_RemoveAndOrderData&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.MathematicsChallenge.CheckFibonacci&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.MathematicsChallenge.CheckPrimeNumber&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.MathematicsChallenge.CheckGreatestCommonDivisor&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
