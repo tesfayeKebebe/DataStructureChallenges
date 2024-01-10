@@ -71,6 +71,13 @@ public class StringChallenges
         var result = IsBalanced(input);
         result.Should().Be(expected);
     }
+
+    [Fact]
+    public void CheckSubstring()
+    {
+        var result = GetSubstring("wxyz");
+        
+    }
     private static bool IsAnagram(string s1, string s2)
     {
         if (s2.Length != s1.Length)
@@ -155,5 +162,20 @@ public class StringChallenges
         return stacks.Count==0?"YES":"NO";
          
 
+    }
+
+    private static List<string> GetSubstring(string str)
+    {
+        var strList = new List<string>();
+        for (var i = 0; i < str.Length; i++)
+        {
+            for (int j = i; j < str.Length; j++)
+            {
+                var sub = str.Substring(i, j - i);
+                if(sub!="")
+                    strList.Add(sub);
+            }
+        }
+        return strList;
     }
 }

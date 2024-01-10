@@ -7,8 +7,12 @@ public interface IInterfaceImplementation
     // {
     //     
     // }
-    public int Type()
+    public virtual int Type()
     {
         return 1;
     }
+}
+
+ class MyClassHere : IInterfaceImplementation
+{
 }

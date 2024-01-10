@@ -5,5 +5,27 @@
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.MathematicsChallenge.CheckFibonacci&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.MathematicsChallenge.CheckPrimeNumber&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.MathematicsChallenge.CheckGreatestCommonDivisor&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.TestClassStructRecord.Test&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.TestObserverDesign.TestObservable&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.TestGeneric.CheckGeneric&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.DelegatePractice.Check_Delegate&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.IncrementAndDecrement.CheckIncrementAndDecrement&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.MathematicsChallenge.CheckArmStrong&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.MathematicsChallenge.CheckGenerateArmStrong&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.IenumerableVsIenumerator.LoopingUsingForeach&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.IenumerableVsIenumerator.LoopingUsingEnumerator&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.ArrayChallenges.CheckSort&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.ArrayChallenges.CheckSortString&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.BinarySearchTree.CheckInsertionAndMaximumValueOfBinaryTree&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=db4ea8a7_002Dbddf_002D4a89_002D82b6_002D92a3b170204a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CalculateFinalGPA" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.FinalGPA.CalculateFinalGPA&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.FirstLetter.FirstLetter_ShouldBeInUpperCase&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.IncrementAndDecrement.CheckIncrementAndDecrement&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.MathematicsChallenge.CheckFibonacci&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.PolymorphismImplementation.Evaluate_Polymorphism&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.StringChallenges.CheckSubstring&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

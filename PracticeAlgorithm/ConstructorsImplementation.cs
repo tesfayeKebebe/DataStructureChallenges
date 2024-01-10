@@ -19,6 +19,10 @@ public class ConstructorsImplementation
     {
         this.data = data;
     }
+    private ConstructorsImplementation(string data, string d)
+    {
+        this.data = data;
+    }
   //access modifier is not allowed for static constructor
   //can not be parametrized constructor
   //one class only has one static constructor
@@ -32,3 +36,5 @@ public class ConstructorsImplementation
    
     
 }
+//we can not create instance and implement inheritance of class because of private constructor
+// public class DrivedClass : ConstructorsImplementation

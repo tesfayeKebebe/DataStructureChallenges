@@ -9,8 +9,8 @@ public class NodeTree
 
     public NodeTree(int key, string value)
     {
-        this.Key = key;
-        this.Value = value;
+        Key = key;
+        Value = value;
     }
       
  // public  BinaryTree(int value=0, BinaryTree left=null, BinaryTree right=null)
