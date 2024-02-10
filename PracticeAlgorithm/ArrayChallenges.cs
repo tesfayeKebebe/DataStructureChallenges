@@ -105,6 +105,16 @@ public class ArrayChallenges
             
         }
     }
+    
+    public IList<IList<int>> PermuteUnique(int[] nums) {
+        List<IList<int>> permution = new List<IList<int>>();
+
+        return permution;
+    }
+    private void BackTracking( List<List<int>> res, int[] nums, Dictionary<int, bool>  used)
+    {
+        
+    }
   
 
 }

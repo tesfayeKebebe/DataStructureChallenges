@@ -24,6 +24,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c3ecd293_002D5d09_002D4c65_002D802a_002D8d553bc403f3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CheckLongestPalindrome" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.StringChallenges.CheckLongestPalindrome&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.PolymorphismImplementation.Evaluate_Polymorphism&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=db4ea8a7_002Dbddf_002D4a89_002D82b6_002D92a3b170204a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CalculateFinalGPA" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
@@ -36,5 +37,6 @@
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.StringChallenges.CheckSubstring&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.ArrayChallenges.CheckArrayRotation&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.StringChallenges.CheckLongestPalindrome&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.BitwiseChallenges.ChallengesBitwise&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
