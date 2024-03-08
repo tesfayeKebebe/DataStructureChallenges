@@ -96,6 +96,9 @@ public class StringChallenges
          EndsWithly("timidly").Should().Be(true);
          EndsWithly("gallantly").Should().Be(true);
     }
+    public void CheckLongestPalindrome()
+    {
+        var result = LongestPalindrome("abacdfgdcaba"); }
     private static bool IsAnagram(string s1, string s2)
     {
         if (s2.Length != s1.Length)
@@ -187,7 +190,7 @@ public class StringChallenges
         var strList = new List<string>();
         for (var i = 0; i < str.Length; i++)
         {
-            for (int j = i; j < str.Length; j++)
+            for (var j = i+1; j <= str.Length; j++)
             {
                 var sub = str.Substring(i, j - i);
                 if(sub!="")
@@ -214,5 +217,42 @@ public class StringChallenges
         if(str.Length<2) return false;
         var sub = str.Substring(str.Length -2);
         return sub =="ly"? true: false;
+    }
+    private string? LongestPalindrome(string s)
+    {
+        if (string.IsNullOrWhiteSpace(s))
+        {
+            return null;
+        }
+        if (s.Length == 1)
+        {
+            return s;
+        }
+        var longest = s.Substring(0, 1);
+        for (var i = 0; i < s.Length; i++)
+        {
+            var tem = HelperForLongestPalindrome(s, i, i);
+            if (tem.Length > longest.Length)
+            {
+                longest = tem;
+            }
+            var tem2 = HelperForLongestPalindrome(s, i, i+1);
+            if (tem2.Length > longest.Length)
+            {
+                longest = tem2;
+            }
+            
+        }
+        return longest;
+
+    }
+    private string HelperForLongestPalindrome(string s, int begin, int end)
+    {
+        while (begin >= 0 && end <= s.Length - 1 && s[begin]==s[end])
+        {
+            begin--;
+            end++;
+        }
+        return s.Substring(begin + 1, end-begin-1);
     }
 }

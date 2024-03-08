@@ -44,6 +44,13 @@ public class ArrayChallenges
         var result2 = ReversePolish(arr2);
         result2.Should().Be(6);
     }
+    [Fact]
+    public void CheckArrayRotation2()
+    {
+        var list = new List<int>() {1, 2, 3, 4, 5, 6, 7};
+         RotateArray(list,3);
+         list.Should().BeEquivalentTo(new List<int>(){7,6,5,1,2,3,4}); 
+    }
     [Theory]
     [MemberData(nameof(GetTestData))]
     public void Merge_ShouldBe_RemoveAndOrderData(List<int> l1, List<int>l2, List<int>list)
@@ -80,26 +87,22 @@ public class ArrayChallenges
             {
                 if (nums[i] < nums[j])
                 {
-                    var temp = nums[i];
-                    nums[i] = nums[j];
-                    nums[j] = temp;
+                    (nums[i], nums[j]) = (nums[j], nums[i]);
                 }
             }
          
         }
         return nums;
     }
-    private List<string> SortString(List<string> strgs)
+    private IEnumerable<string> SortString(IList<string> strgs)
     {
-        for (int i = 0; i < strgs.Count; i++)
+        for (var i = 0; i < strgs.Count; i++)
         {
-            for (int j = 0; j < strgs.Count; j++)
+            for (var j = 0; j < strgs.Count; j++)
             {
-                if (String.CompareOrdinal(strgs[i] , strgs[j]) <0)
+                if (string.CompareOrdinal(strgs[i] , strgs[j]) <0)
                 {
-                    var temp = strgs[i];
-                    strgs[i] = strgs[j];
-                    strgs[j] = temp;
+                    (strgs[i], strgs[j]) = (strgs[j], strgs[i]);
                 }
             }
          
@@ -252,8 +255,28 @@ private int WordCount(string str, string[] arr)
     }
     return count;
 }
+    private void RotateArray(IList<int> arr, int k)
+    {
+        if (k > arr.Count)
+            k = k% arr.Count;
+        for (var i = 0; i < k; i++)
+        {
+            for (var j = arr.Count - 1; j > 0; j--)
+            {
+                (arr[j - 1], arr[j]) = (arr[j], arr[j - 1]);
+            }
+            
+        }
+    }
+    
+    public IList<IList<int>> PermuteUnique(int[] nums) {
+        List<IList<int>> permution = new List<IList<int>>();
 
+        return permution;
+    }
+    private void BackTracking( List<List<int>> res, int[] nums, Dictionary<int, bool>  used)
+    {
+        
+    }
 }
-
-  
 
