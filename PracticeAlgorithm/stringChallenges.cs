@@ -78,6 +78,24 @@ public class StringChallenges
         var result = GetSubstring("wxyz");
         
     }
+
+    [Fact]
+    public void RemoveCapitalShouldRemoveCapitalLetterFromString()
+    {
+        // Given
+         var s1="fOrEver";
+        // When
+          var result1= RemoveCapital(s1);
+        // Then
+        result1.Should().Be("frver");
+    }
+    [Fact]
+    public void EndsWithlyShouldReturnTrueWhenStringEndsWithlyElseItShouldReturnFalse()
+    {
+         EndsWithly("pretty").Should().Be(false);
+         EndsWithly("timidly").Should().Be(true);
+         EndsWithly("gallantly").Should().Be(true);
+    }
     private static bool IsAnagram(string s1, string s2)
     {
         if (s2.Length != s1.Length)
@@ -177,5 +195,24 @@ public class StringChallenges
             }
         }
         return strList;
+    }
+    private string RemoveCapital(string str)
+    {
+        var newStr="";
+        var strArr = str.ToCharArray();
+        foreach(var c in strArr)
+        {
+            if(c!=char.ToUpperInvariant(c))
+            {
+                newStr+=c.ToString();
+            }
+        }
+        return newStr;
+    }
+    private bool EndsWithly(string str)
+    {
+        if(str.Length<2) return false;
+        var sub = str.Substring(str.Length -2);
+        return sub =="ly"? true: false;
     }
 }
