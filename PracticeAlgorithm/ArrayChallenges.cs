@@ -278,5 +278,54 @@ private int WordCount(string str, string[] arr)
     {
         
     }
+[Fact]
+public void AlternatingCapsShouldBeAlteringTheSentenceStartingByLoweringTheWordIfNumberIsEven()
+{
+    AlternatingCaps("take them to school").Should().Be("take THEM to SCHOOL");
+     AlternatingCaps("What did ThEy EAT before?").Should().Be("what DID they EAT before?");
+}
+    private string AlternatingCaps(string str)
+    {
+        var newArr = str.Split(" ");
+        var result = new List<string>();
+        for(int i=0; i<newArr.Length; i++)
+        {
+            if(i%2==0)
+            {
+                result.Add(newArr[i].ToLower());
+            }
+            else{
+                 result.Add(newArr[i].ToUpper());
+            }
+        }
+        return string.Join(" ", result);
+
+    }
+    [Fact]
+    public void CommonElementsShouldReturnCommonElementsOfAnyTypes()
+    {
+      
+        string[] arr1 = new string[]{"a", "c", "d", "b"};
+        string[] arr2 = new string []{"b", "a", "y"};
+        CommonElements(arr1, arr2).Should().BeEquivalentTo(new string[] {"a", "b"}); 
+         int[] arr3 = new int[]{4, 7};
+         int[] arr4 = new int []{32, 7, 1, 4};
+        CommonElements(arr3, arr4).Should().BeEquivalentTo(new int[] {4,7}); 
+    }
+    private T[] CommonElements<T> (T[] arr1, T[] arr2)
+    {
+        var result = new List<T>();
+        foreach(var arr in arr1)
+        {
+            var foundInResult = result.FirstOrDefault(x=>EqualityComparer<T>.Default.Equals(x, arr));
+             var foundInArr2 = arr2.FirstOrDefault(x=>EqualityComparer<T>.Default.Equals(x, arr));
+           if ((foundInResult == null || EqualityComparer<T>.Default.Equals(foundInResult, default(T))) &&
+            (foundInArr2 != null && !EqualityComparer<T>.Default.Equals(foundInArr2, default(T))))
+            {
+                result.Add(arr);
+            }
+        }
+        return result.ToArray();
+    }
 }
 
