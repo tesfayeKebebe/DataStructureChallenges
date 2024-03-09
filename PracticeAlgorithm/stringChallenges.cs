@@ -80,6 +80,22 @@ public class StringChallenges
     }
 
     [Fact]
+    public void RemoveCapitalShouldRemoveCapitalLetterFromString()
+    {
+        // Given
+         var s1="fOrEver";
+        // When
+          var result1= RemoveCapital(s1);
+        // Then
+        result1.Should().Be("frver");
+    }
+    [Fact]
+    public void EndsWithlyShouldReturnTrueWhenStringEndsWithlyElseItShouldReturnFalse()
+    {
+         EndsWithly("pretty").Should().Be(false);
+         EndsWithly("timidly").Should().Be(true);
+         EndsWithly("gallantly").Should().Be(true);
+    }
     public void CheckLongestPalindrome()
     {
         var result = LongestPalindrome("abacdfgdcaba"); }
@@ -182,6 +198,25 @@ public class StringChallenges
             }
         }
         return strList;
+    }
+    private string RemoveCapital(string str)
+    {
+        var newStr="";
+        var strArr = str.ToCharArray();
+        foreach(var c in strArr)
+        {
+            if(c!=char.ToUpperInvariant(c))
+            {
+                newStr+=c.ToString();
+            }
+        }
+        return newStr;
+    }
+    private bool EndsWithly(string str)
+    {
+        if(str.Length<2) return false;
+        var sub = str.Substring(str.Length -2);
+        return sub =="ly"? true: false;
     }
     private string? LongestPalindrome(string s)
     {
