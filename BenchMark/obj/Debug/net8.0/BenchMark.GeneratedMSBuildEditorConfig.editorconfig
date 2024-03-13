@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BenchMark
-build_property.ProjectDir = E:\Challenges\Challenge-Latest\DataStructureChallenges\BenchMark\
+build_property.ProjectDir = /Users/activbetdev./algorithms/Challenges/BenchMark/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
