@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net8.0": {
       "coverlet.collector/3.2.0": {
         "type": "package",
         "build": {
@@ -5642,7 +5642,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net8.0": [
       "FluentAssertions >= 7.0.0-alpha.3",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "coverlet.collector >= 3.2.0",
@@ -5657,11 +5657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\Challenges\\Challenge-Latest\\DataStructureChallenges\\PracticeAlgorithm\\PracticeAlgorithm.csproj",
+      "projectUniqueName": "E:\\Challenges\\Challenge-Latest\\DataStructureChallenges\\PracticeAlgorithm\\PracticeAlgorithm.csproj",
       "projectName": "PracticeAlgorithm",
-      "projectPath": "e:\\Challenges\\Challenge-Latest\\DataStructureChallenges\\PracticeAlgorithm\\PracticeAlgorithm.csproj",
+      "projectPath": "E:\\Challenges\\Challenge-Latest\\DataStructureChallenges\\PracticeAlgorithm\\PracticeAlgorithm.csproj",
       "packagesPath": "C:\\Users\\TOSHIBA\\.nuget\\packages\\",
-      "outputPath": "e:\\Challenges\\Challenge-Latest\\DataStructureChallenges\\PracticeAlgorithm\\obj\\",
+      "outputPath": "E:\\Challenges\\Challenge-Latest\\DataStructureChallenges\\PracticeAlgorithm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5672,7 +5672,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
@@ -5681,8 +5681,8 @@
         "https://nuget.devexpress.com/RxdjQvhWrjc5ArAEiyq7tybJT9uqGgACvW7Elv4KbFiyM2VwJl/api": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -5698,8 +5698,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "FluentAssertions": {
             "target": "Package",
@@ -5742,7 +5742,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

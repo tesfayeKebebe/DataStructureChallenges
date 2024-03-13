@@ -303,22 +303,148 @@
 // Write a function `commonElements` that accepts two arrays as arguments. The function should return
 // a new array containing the elements that are found in both of the input arrays. The order of
 // the elements in the output array doesn't matter as long as the function returns the correct elements.
-const commonElements = (arr1, arr2) =>
-{
-    const result =[];
-    for(let arr of arr1)
-    {
-        if(!result.includes(arr) && arr2.includes(arr))
-        {
-            result.push(arr)
-        }
-    }
-    return result;
-}
-let arr1 = ["a", "c", "d", "b"];
-let arr2 = ["b", "a", "y"];
-console.log(commonElements(arr1, arr2)); // ['a', 'b']
+// const commonElements = (arr1, arr2) =>
+// {
+//     const result =[];
+//     for(let arr of arr1)
+//     {
+//         if(!result.includes(arr) && arr2.includes(arr))
+//         {
+//             result.push(arr)
+//         }
+//     }
+//     return result;
+// }
+// let arr1 = ["a", "c", "d", "b"];
+// let arr2 = ["b", "a", "y"];
+// console.log(commonElements(arr1, arr2)); // ['a', 'b']
 
-let arr3 = [4, 7];
-let arr4 = [32, 7, 1, 4];
-console.log(commonElements(arr3, arr4)); // [4, 7]
+// let arr3 = [4, 7];
+// let arr4 = [32, 7, 1, 4];
+// console.log(commonElements(arr3, arr4)); // [4, 7]
+
+
+// Write a function `removeDupes` that accepts an array as an argument. The function should return a
+// new array where each element only appears once.
+
+// const removeDupes = (arr) => 
+// {
+//     const result =[];
+//     for(let item of arr)
+//     {
+//         if(!result.includes(item))
+//         {
+//             result.push(item)
+//         }
+//     }
+//     return result;
+
+// }
+// console.log(removeDupes(["x", "y", "y", "x", "z"])); // ['x', 'y', 'z']
+// console.log(removeDupes([false, false, true, false])); // [false, true]
+// console.log(removeDupes([42, 5, 7, 42, 7, 3, 7, 7])); // [42, 5, 7, 3]
+
+// Write a function `removeVowels` that accepts a string as an argument. The function should return
+// a version of the string where all vowels are removed.
+//  const removeVowels = (str) => 
+//  {
+//     const vowels = ['a','e','i', 'o','u'];
+//     let newStr = "";
+//     for(let c of str.toLowerCase())
+//     {
+//       if(!vowels.includes(c))
+//       {
+//         newStr+=c;
+//       }
+//     }
+//     return newStr;
+//  }
+// console.log(removeVowels("jello")); // jll
+// console.log(removeVowels("sensitivity")); // snstvty
+// console.log(removeVowels("cellar door")); // cllr dr
+
+// Write a function `spam` that accepts a 2D array as an argument. The array contains pairs as elements.
+// The first element of every pair is a number and the second element is a word. The function should
+// return a string containing the words repeated the specified number of times. See the examples.
+// const spam = (arr) => 
+// {
+//   let words ="";
+//    for(let f =0; f<arr.length; f++)
+//    {
+//     const subArr = arr[f];
+//       for(let s =0; s<subArr[1]; s++)
+//       {
+//         words += subArr[0] + ' '
+//       }
+//    }
+//    return words.trim();
+// }
+// let array1 = [
+//     ["hi", 3],
+//     ["bye", 2],
+//   ];
+//   console.log(spam(array1)); // 'hi hi hi bye bye'
+  
+//   let array2 = [
+//     ["cat", 1],
+//     ["dog", 2],
+//     ["bird", 4],
+//   ];
+//   console.log(spam(array2)); // 'cat dog dog bird bird bird bird'
+
+// Write a function `removeFirstVowel` that accepts a string as an argument. The function should return
+// the string with it's first vowel removed.
+// const removeFirstVowel =(str) => 
+// {
+//   const vowels =['a', 'e', 'i', 'o', 'u'];
+//   let isFirst =false;
+//   let word ="";
+//   for(let c of str)
+//   {
+//     if(vowels.includes(c) && !isFirst)
+//     {
+//       isFirst = true;
+//     }
+//     else
+//     {
+//       word +=c;
+//     }
+//   }
+//   return word;
+// }
+// console.log(removeFirstVowel("volcano")); // 'vlcano'
+// console.log(removeFirstVowel("celery")); // 'clery'
+// console.log(removeFirstVowel("juice")); // 'jice'
+
+// Write a function `shortenLongWords` that accepts a sentence string as an argument. The function
+// should return the same sentence where words longer than 4 characters have their vowels removed.
+const shortenLongWords = (str) => 
+{
+  let word ="";
+  const vowels =['a', 'e', 'i', 'o', 'u'];
+  for(let s of str.split(" "))
+  {
+    if(s.length >4)
+    {
+      let newWOrd ="";
+       for(let c of s)
+       {
+         if(!vowels.includes(c))
+         {
+          newWOrd += c;
+         }
+       }
+       word += newWOrd + " ";
+    }
+    else
+    {
+      word += s+ " ";
+    }
+  
+  }
+  return word.trim();
+
+}
+console.log(shortenLongWords("they are very noble people")); // 'they are very nbl ppl'
+console.log(shortenLongWords("stick with it")); // 'stck with it'
+console.log(shortenLongWords("ballerina, you must have seen her")); // 'bllrna, you must have seen her'

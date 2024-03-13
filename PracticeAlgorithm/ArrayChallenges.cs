@@ -327,5 +327,35 @@ public void AlternatingCapsShouldBeAlteringTheSentenceStartingByLoweringTheWordI
         }
         return result.ToArray();
     }
+    [Theory]
+    [InlineData(new int[]  {1, 2, 3, 4}, 2)]
+    [InlineData(new int[] { 1, 2, 3, 4, 5}, 2)]
+    public void ArrayChunk(int[] arr, int size)
+    {
+        //   var newArr = arr.ToList();
+        //   var twoDList =new List<List<int>>();
+        //   int startIndex = 0;
+        //   while(startIndex<newArr.Count)
+        //   {
+        //   var destArray = newArr.ToList().GetRange(startIndex, Math.Min(size, newArr.Count-startIndex));
+        //   twoDList.Add(destArray);
+        //   startIndex +=size;
+        //   }
+        //   var lastArray = twoDList.ToArray();
+        //Or
+         
+         int startIndex =0;
+         var result = new List<List<int>>();
+         while(startIndex < arr.Length)
+         {
+             int newSize = Math.Min(size, arr.Length - startIndex);
+            var destination = new int [newSize];
+            Array.Copy(arr, startIndex, destination, 0, newSize);
+            result.Add(destination.ToList());
+            startIndex+=newSize;
+         }
+
+    
+    }
 }
 
