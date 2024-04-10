@@ -7,19 +7,39 @@ public class DictionaryVsNameValueCollection
     [Fact]
     public static void DictionaryImplementation()
     {
-        var dictionary = new Dictionary<int, Person>();
-        dictionary.Add(1, new Person{Id = 1, Name = "tesfaye"});
-        dictionary.TryAdd(2, new Person{Id = 2, Name = "Kebebe"});//adding item and return true
-        dictionary.TryAdd(2, new Person{Id = 2, Name = "Kebebe"});//not adding item and return false
-        dictionary.TryGetValue(3, out Person person);
-            Console.WriteLine(person);
-        
-        // dictionary.Add(1, new Person{Id = 2, Name = "Kebebe"});
-        foreach (var item in dictionary)
+        Console.WriteLine(018 - 015);
+        var dic = new Dictionary<int, int>();
+        var nums = new int[] { 1,1,1,2,2,3};
+        var list = new List<int>();
+        foreach (var t in nums)
         {
-            Console.WriteLine("value is {0}", item.Value.Name);
-            
+            if (!dic.ContainsKey(t))
+            {
+                dic[t] = 1;
+                list.Add(t);
+            }
+            else
+            {
+                dic[t]++;
+                if (dic[t] <= 2)
+                {
+                    list.Add(t);
+                }
+            }
         }
+        // var dictionary = new Dictionary<int, Person>();
+        // dictionary.Add(1, new Person{Id = 1, Name = "tesfaye"});
+        // dictionary.TryAdd(2, new Person{Id = 2, Name = "Kebebe"});//adding item and return true
+        // dictionary.TryAdd(2, new Person{Id = 2, Name = "Kebebe"});//not adding item and return false
+        // dictionary.TryGetValue(3, out Person person);
+        //     Console.WriteLine(person);
+        //
+        // // dictionary.Add(1, new Person{Id = 2, Name = "Kebebe"});
+        // foreach (var item in dictionary)
+        // {
+        //     Console.WriteLine("value is {0}", item.Value.Name);
+        //     
+        // }
 
     }
     [Fact]

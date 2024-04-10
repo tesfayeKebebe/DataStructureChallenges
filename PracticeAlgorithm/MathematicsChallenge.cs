@@ -123,16 +123,18 @@ public class MathematicsChallenge
     /// <param name="n1"></param>
     /// <param name="n2"></param>
     /// <returns></returns>
-    private int GreatestCommonDivisor(int n1, int n2)
+    private long GreatestCommonDivisor(long n1, long n2)
     {
-        while (n2 != 0)
-        {
-            var temp = n2;
-            n2 = n1 % n2;
-            n1 = temp;
-        }
-
-        return n1;
+        // while (n2 != 0)
+        // {
+        //     var temp = n2;
+        //     n2 = n1 % n2;
+        //     n1 = temp;
+        // }
+        if (n1 == 0) return n2;
+        else if (n2 == 0) return n1;
+        else if (n1 < n2) return GreatestCommonDivisor(n1, n2 % n1);
+        else return GreatestCommonDivisor(n2, n1 % n2);
     }
 
     /// <summary>
@@ -167,5 +169,109 @@ public class MathematicsChallenge
             start++;
         }
         return armStrongs;
+    }
+
+    [Theory]
+    [InlineData(2.52, "38/25")]
+    [InlineData(2.50, "3/2")]
+    [InlineData(3.97, "297/100")]
+    [InlineData(1.55, "11/20")]
+    [InlineData(1.0, "0/1")]
+    [InlineData(1.31, "31/100")]
+    [InlineData(10.01, "901/100")]
+    public void DecimalToFractionTakesDecimalAsArgumentShouldReturnFraction(decimal number, string result)
+    {
+        DecimalToFraction(number).Should().Be(result);
+    }
+    
+   private  string DecimalToFraction(decimal number)
+    {
+        decimal subtractedOdds = number - 1;
+        decimal multipliedOdds = subtractedOdds * 100;
+
+        long numerator = (long)multipliedOdds;
+        long denominator = 100;
+
+        long gcd = GreatestCommonDivisor(numerator, denominator);
+        numerator /= gcd;
+        denominator /= gcd;
+
+        return $"{numerator}/{denominator}";
+    }
+  [Theory]
+  [InlineData(new int[]{3,4,5})]
+    public void CheckLastDigit(int[] arr)
+    {
+        LastDigit(arr);
+    }
+    public static int LastDigit(int[] array) {
+        // Write your code here
+      
+        int  num=1;
+        int pow = 1;
+        for(int i=array.Length-1; i>=0; i--)
+        {
+            num =GetPower(array[i], pow);
+            pow = num;
+        }
+        return num%10;
+    }
+
+    private static int GetPower(int baseN, int exponent)
+    {
+        if (exponent == 0 || baseN == 0)
+        {
+            return 0;
+        }
+        int num = 1;
+        for (int i = 1; i <= exponent; i++)
+        {
+            num*= baseN% 10;
+        }
+
+        return num;
+    }
+    [Theory]
+    [InlineData(new int []{2, 4, 8, 1, 1, 15})]
+    public int ObtainMaxNumber(int[] arr){
+        //coding and coding..
+        Dictionary<int, int> candyCount = new Dictionary<int, int>();
+
+        foreach (int candy in arr)
+        {
+            if (candyCount.ContainsKey(candy))
+            {
+                candyCount[candy]++;
+            }
+            else
+            {
+                candyCount[candy] = 1;
+            }
+        }
+
+        int maxSize = 0;
+
+        foreach (var kvp in candyCount)
+        {
+            int candySize = kvp.Key;
+            int candyFrequency = kvp.Value;
+
+            if (candyFrequency >= 2)
+            {
+                // Merge candies
+                int mergedCandySize = candySize * 2;
+                maxSize = Math.Max(maxSize, mergedCandySize);
+            }
+
+            if (candySize % 2 == 0)
+            {
+                // Split candy
+                int splitCandySize = candySize / 2;
+                maxSize = Math.Max(maxSize, splitCandySize);
+            }
+        }
+
+        return maxSize;
+              
     }
 }

@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PracticeAlgorithm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0157d233b17dc05ed59f0c2830f59b6b6d5859ed")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3055ee7ddfdc131e3c541851a79d80ac53350b6")]
+>>>>>>> c5038275d323b061035d64a742a9dfca6370a044
 [assembly: System.Reflection.AssemblyProductAttribute("PracticeAlgorithm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PracticeAlgorithm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

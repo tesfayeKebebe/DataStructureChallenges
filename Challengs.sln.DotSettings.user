@@ -1,4 +1,11 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0f32d9bb_002D0e8a_002D4960_002D8cc3_002Df09e9f172d3e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Merge" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.Merge&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.DictionaryVsNameValueCollection.DictionaryImplementation&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.MaxProfit&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6545c4d8_002De38b_002D423d_002Db1c8_002D548518a4040a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Merge_ShouldBe_RemoveAndOrderData" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.ArrayChallenges.Merge_ShouldBe_RemoveAndOrderData&lt;/TestId&gt;
@@ -21,26 +28,38 @@
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.ArrayChallenges.CheckArrayRotation&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c3ecd293_002D5d09_002D4c65_002D802a_002D8d553bc403f3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CheckLongestPalindrome" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c3ecd293_002D5d09_002D4c65_002D802a_002D8d553bc403f3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckLongestPalindrome" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.StringChallenges.CheckLongestPalindrome&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.PolymorphismImplementation.Evaluate_Polymorphism&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.BinaryTreeChallenges.CheckDepthTransversal&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.GraphChallenges.Check_GraphChallenges&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.MathematicsChallenge.DecimalToFractionTakesDecimalAsArgumentShouldReturnFraction&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.StringChunks&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.MathematicsChallenge.CheckLastDigit&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.MathematicsChallenge.ObtainMaxNumber&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.AsyncAwait.CheckAsyncMethod&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=db4ea8a7_002Dbddf_002D4a89_002D82b6_002D92a3b170204a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CalculateFinalGPA" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c93a3a04_002Dc73d_002D41a6_002Db515_002Dc44ec537b865/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RemoveElement" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.FinalGPA.CalculateFinalGPA&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.FirstLetter.FirstLetter_ShouldBeInUpperCase&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.IncrementAndDecrement.CheckIncrementAndDecrement&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.MathematicsChallenge.CheckFibonacci&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.PolymorphismImplementation.Evaluate_Polymorphism&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.StringChallenges.CheckSubstring&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.ArrayChallenges.CheckArrayRotation&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.StringChallenges.CheckLongestPalindrome&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.BitwiseChallenges.ChallengesBitwise&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.BinaryTreeChallenges.CheckDepthTransversal&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net7.0::PracticeAlgorithm.GraphChallenges.Check_GraphChallenges&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.RemoveElement&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.MaxProfit&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.RotateToRightByK&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=db4ea8a7_002Dbddf_002D4a89_002D82b6_002D92a3b170204a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CalculateFinalGPA" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.MathematicsChallenge.DecimalToFractionTakesDecimalAsArgumentShouldReturnFraction&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.StringChallenges.RemoveCapitalShouldRemoveCapitalLetterFromString&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.StringChallenges.CheckSubstring&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.MathematicsChallenge.CheckGreatestCommonDivisor&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.StringChallenges.CheckAnagram&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.BitwiseChallenges.ChallengesBitwise&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e419bdcd_002D305d_002D4830_002Dbe47_002D10e71c58d80c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetWordListTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.TEST.GetWordListTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.StringChunks&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.Merge&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.RandomizedSet.CheckRandomizedSetMethod&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.LeetCode.ProductExceptSelf.CheckProductExceptSelf&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
