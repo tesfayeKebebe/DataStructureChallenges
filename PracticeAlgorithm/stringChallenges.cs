@@ -316,4 +316,31 @@ public class StringChallenges
         return word.Trim();
     }
 
+    private char SecondHighest(string s)
+    {
+        var dic = new SortedDictionary<char, int>();
+        foreach (var c in s)
+        {
+            if (dic.ContainsKey(c))
+            {
+                dic[c]++;
+            }
+            else
+            {
+                dic[c] = 1;
+            }
+            
+        }
+        
+        if (dic.Count < 2)
+        {
+            throw new InvalidOperationException("Not enough unique characters to determine the second highest.");
+        }
+        // We need to get the second highest character by count.
+        var orderedChars = dic.OrderByDescending(kvp => kvp.Value).Select(kvp => kvp.Key).ToList();
+
+        return orderedChars[1]; //
+        
+    }
+
 }

@@ -44,7 +44,7 @@
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.RotateToRightByK&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=db4ea8a7_002Dbddf_002D4a89_002D82b6_002D92a3b170204a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CalculateFinalGPA" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=db4ea8a7_002Dbddf_002D4a89_002D82b6_002D92a3b170204a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CalculateFinalGPA" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.MathematicsChallenge.DecimalToFractionTakesDecimalAsArgumentShouldReturnFraction&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.StringChallenges.RemoveCapitalShouldRemoveCapitalLetterFromString&lt;/TestId&gt;
@@ -52,14 +52,16 @@
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.MathematicsChallenge.CheckGreatestCommonDivisor&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.StringChallenges.CheckAnagram&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.BitwiseChallenges.ChallengesBitwise&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.Rotate&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e419bdcd_002D305d_002D4830_002Dbe47_002D10e71c58d80c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetWordListTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e419bdcd_002D305d_002D4830_002Dbe47_002D10e71c58d80c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetWordListTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.TEST.GetWordListTest&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.StringChunks&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.Merge&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.RandomizedSet.CheckRandomizedSetMethod&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.LeetCode.ProductExceptSelf.CheckProductExceptSelf&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A2D1E787-8A37-446D-AADC-DE371FBCCDCC::net8.0::PracticeAlgorithm.ArrayChallenges.Rotate&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

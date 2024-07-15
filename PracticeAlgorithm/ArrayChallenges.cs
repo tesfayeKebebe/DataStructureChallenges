@@ -187,7 +187,36 @@ public class ArrayChallenges
             right--;
         }
     }
+    [Theory]
+    [MemberData(nameof(GetRotateTestData))]
+    public void Rotate(int[][] matrix)
+    {
+        for (int i = 0; i < matrix.Length; i++)
+        {
+            for (int j = i + 1; j < matrix.Length; j++)
+            {
+                (matrix[i][j], matrix[j][i]) = (matrix[j][i], matrix[i][j]);
+            }
+        }
 
+        foreach (var row in matrix)
+        {
+            Array.Reverse(row);
+        }
+        
+    }
+    public static IEnumerable<object[]> GetRotateTestData()
+    {
+        yield return new object[] 
+        { 
+            new int[][] 
+            {
+                new int[] { 1, 2, 3 },
+                new int[] { 4, 5, 6 },
+                new int[] { 7, 8, 9 }
+            }
+        };
+    }
     ///  Naive Approach
     ///that this problem can be solved by using a stack.We can loop through each element
     //in the given array.When it is a number, push it to the stack.When it is an operator,

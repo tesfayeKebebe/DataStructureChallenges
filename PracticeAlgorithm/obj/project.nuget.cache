@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TSR0qXkCSbxqErjxAEg+ktSoU1nJuDGZjiv+r2jRNyej1tYm2dZpMxY361nQC7agTPc1BURq56LuQvHG1wVdGQ==",
+  "dgSpecHash": "Sum8IcePggI=",
   "success": true,
   "projectFilePath": "/Users/activbetdev./algorithms/Challenges/PracticeAlgorithm/PracticeAlgorithm.csproj",
   "expectedPackageFiles": [
@@ -95,7 +95,9 @@
     "/Users/activbetdev./.nuget/packages/xunit.core/2.4.2/xunit.core.2.4.2.nupkg.sha512",
     "/Users/activbetdev./.nuget/packages/xunit.extensibility.core/2.4.2/xunit.extensibility.core.2.4.2.nupkg.sha512",
     "/Users/activbetdev./.nuget/packages/xunit.extensibility.execution/2.4.2/xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "/Users/activbetdev./.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512"
+    "/Users/activbetdev./.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512",
+    "/Users/activbetdev./.nuget/packages/microsoft.netcore.app.ref/8.0.4/microsoft.netcore.app.ref.8.0.4.nupkg.sha512",
+    "/Users/activbetdev./.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512"
   ],
   "logs": [
     {

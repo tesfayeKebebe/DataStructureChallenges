@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RNWLsikyhpN9KXi/AaYUKFh9HwgbT5lfeJKD/sojCWV168MVDN8taWCpyxnOwrWYVyLqjMp7pRcIAb3loojBlQ==",
+  "dgSpecHash": "baTpMnLyo18=",
   "success": true,
   "projectFilePath": "/Users/activbetdev./algorithms/Challenges/BenchMark/BenchMark.csproj",
   "expectedPackageFiles": [
@@ -37,7 +37,10 @@
     "/Users/activbetdev./.nuget/packages/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg.sha512",
     "/Users/activbetdev./.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
     "/Users/activbetdev./.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512",
-    "/Users/activbetdev./.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "/Users/activbetdev./.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "/Users/activbetdev./.nuget/packages/microsoft.netcore.app.ref/8.0.4/microsoft.netcore.app.ref.8.0.4.nupkg.sha512",
+    "/Users/activbetdev./.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512",
+    "/Users/activbetdev./.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.4/microsoft.netcore.app.host.osx-arm64.8.0.4.nupkg.sha512"
   ],
   "logs": [
     {
