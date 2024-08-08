@@ -48,7 +48,7 @@ public class CovarianceVsContravariance
         //covariant
         R GetSomething();
         // The following statement generates a compiler error.
-        // void SetSometing(R sampleArg);
+         //void SetSometing(R sampleArg);
         
         //contravariant generic delegate as a method parameter, 
         void DoSomething(Action<R> callback);
